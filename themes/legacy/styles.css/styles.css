@@ -1,0 +1,52 @@
+#background {
+  background: #0f0f0f;
+}
+
+.btn {
+  padding: .75rem;
+  font-weight: 300;
+}
+
+.btn-success {
+  background: #15803d;
+  color: #FFF;
+}
+
+.btn-info {
+
+  background: #0284c7;
+  color: #FFF;
+}
+
+.bm-menu {
+  background: #171717;
+  color: #FFF;
+}
+
+.nav-block {
+  position: relative;
+  border-bottom: solid 1px rgb(33,33,33);
+  background: rgb(24,24,24);
+}
+
+.btn-primary {
+  color: #FFF;
+  border: solid 2px #FFF;
+}
+
+.selected {
+  border-bottom: solid 2px #0284c7;
+}
+
+.modal {
+  background: #121212;
+  color: #fff;
+}
+
+svg, h1 {
+  color: #FFF;
+}
+
+body {
+  color: white;
+}

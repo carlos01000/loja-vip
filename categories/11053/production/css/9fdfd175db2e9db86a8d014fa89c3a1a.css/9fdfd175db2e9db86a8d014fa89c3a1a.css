@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+.packages-list h1 {
+    padding: 10px;
+    width: fit-content;
+    min-width: 70%;
+    height: 35px!important;
+    display: flex;
+    align-items: center;
+    flex: 0;
+    justify-content: center;
+    background: #df073c;
+    box-shadow: 0 0 5px rgb(37, 150, 190 / 56%);
+    border-radius: 5px !important;
+    margin: auto!important;
+    font-size: 12px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.btn-success {
+    background: #df073c !important;
+    box-shadow: 0 0 10px #df073c;
+    border: 0;
+    border-radius: 4px !important;
+}
+
+.btn-success:hover {
+    background: #df073c !important;
+}
+
+.btn-info {
+    border: 1px solid #df073c !important;
+    background: transparent !important;
+    margin-left: 5px;
+    border-radius: 5px !important;
+}
+
+.btn-info:hover {
+    background: #df073c !important;
+}
+
+.packages-list>.package>footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 8px !important;
+}
+
+.packages-list>.package>div {
+    margin-bottom: 4px !important;
+}
+
+.packages-list>.package>footer>* {
+    width: 100%;
+}
+
+header>div.categories,
+header>div:first-child {
+    background: #000;
+}
+
+.packages-list>.package:hover {
+    transform: scale(1.05);
+}
+
+.package * {
+    font-weight: 700 !important;
+}
+
+.package>h1:first-child {
+    margin: 0 0 8px 0 !important;
+    width: 100%;
+}
+
+.categories>* {
+    color: #FFF;
+}
+
+.category-link:not(.home-link):first-letter,
+.fas.fa-shopping-cart.text-xl::before,
+.bm-item:first-letter {
+    color: transparent;
+    text-shadow: 0 0 #df073c;
+}
